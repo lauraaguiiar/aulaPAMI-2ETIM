@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
         marginTop:8,
     },
     texto:{
+        
         //fontsize: 20,
         fontSize: RFValue(22),
         color:'#07428f',
