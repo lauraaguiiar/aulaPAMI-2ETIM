@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     container: {        
@@ -7,10 +8,10 @@ const styles = StyleSheet.create({
         width: '100%', 
         height: '100%', 
         backgroundColor: '#e3f2fd', 
-        borderRadius: 20, 
+        borderRadius: RFValue(20),
     },  
     titulo: {
-        fontSize: 30, 
+        fontSize: RFValue(25), 
         fontWeight: 'bold', 
     }, 
     imagem: {
@@ -20,4 +21,3 @@ const styles = StyleSheet.create({
 });
 
 export default styles;
-
